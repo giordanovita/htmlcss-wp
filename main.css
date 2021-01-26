@@ -1,0 +1,143 @@
+/* regole generali */
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.centratore{
+  width: 80%;
+  margin: auto;
+}
+
+
+.intestazione, .firstbox{
+  margin-bottom: 20px;
+
+}
+
+a{
+  text-decoration: none;
+  color: #A7A7A7;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+
+/* regole header */
+.intestazione{
+  width: 100%;
+  height: 100px;
+
+}
+
+.intestazione .logo{
+  width: 15%;
+  padding-right: 13px;
+  border-right: 1px solid #E7E7E7;
+  margin-bottom: 25px;
+}
+
+.list{
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 5px;
+
+
+
+}
+
+
+/* regole main */
+
+/* sezione superiore */
+.firstbox{
+  width: 100%;
+  height: 450px;
+  background-image: url(img/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  margin-top: 40px;
+  filter: brightness(85%);
+  
+  position: relative;
+
+}
+
+.didascalia{
+  width: 45%;
+  position: absolute;
+  left: 45px;
+  bottom: 55px;
+  color: white;
+
+
+
+}
+
+.bold{
+  font-size: 30px;
+
+}
+
+
+/* sezione inferiore */
+.secondbox{
+  width: 100%;
+  /* debug */
+  background-color: blue;
+}
+
+
+.row{
+ width: 100%;
+ margin-bottom: 10px;
+
+
+}
+ .secondtitle{
+   width: 100%;
+   height: 40px;
+   margin-bottom: 12px;
+   /* debug */
+   background-color: lightblue;
+ }
+
+ .column{
+   height: 200px;
+   float: left;
+   margin-bottom: 10px;
+
+ }
+
+ .row::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+ .small{
+   width: calc(25% - 5px);
+   /* debug */
+   background-color: red;
+ }
+
+ .big{
+   width: calc(50% - 10px);
+   margin:0 10px;
+   /* debug */
+   background-color: lightblue;
+ }
+/* regole footer */
+
+.foot{
+  width: 100%;
+  height: 30px;
+  /* debug */
+  background-color: purple;
+}
