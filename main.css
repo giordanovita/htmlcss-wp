@@ -79,13 +79,15 @@ a:hover{
   font-size: 25px;
   width: 100%;
 }
+.didascalia:hover{
+  color: black;
+}
 
 
 /* sezione inferiore */
 .secondbox{
   width: 100%;
   margin-top: 35px;
-
 }
 
 
@@ -112,6 +114,7 @@ a:hover{
    height: 600px;
    float: left;
    margin-bottom: 10px;
+   color:#9B9B9B;
 
  }
 
@@ -124,7 +127,7 @@ a:hover{
    width: calc(25% - 5px);
 
  }
-
+  /* classe centralizzata per caratteristiche comuni immagini colonne */
  .pic{
    width: 100%;
    height: 260px;
@@ -165,6 +168,7 @@ a:hover{
    font-weight: bold;
    display: block;
    margin-bottom: 10px;
+   color: #353535;
 
  }
 
@@ -172,11 +176,23 @@ a:hover{
    width: calc(50% - 10px);
    margin:0 10px;
  }
+
+ .leggibile:hover{
+   font-size: 17px;
+   color: black;
+ }
 /* regole footer */
 
 .foot{
   width: 100%;
-  height: 30px;
-  /* debug */
-  background-color: purple;
+  height: 60px;
+  text-align: center;
+  margin-top: 35px;
+}
+.foot:hover{
+  font-size: 30px;
+}
+#heart{
+  color: red;
+  text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
 }
