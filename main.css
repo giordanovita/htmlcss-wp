@@ -168,9 +168,9 @@ footer{
  }
 
  .columntitle{
+   height: 20px;
    font-size: 15px;
    font-weight: bold;
-   display: block;
    color: #353535;
 
  }
@@ -178,6 +178,10 @@ footer{
  .big{
    width: calc(50% - 10px);
    margin:0 10px;
+ }
+
+ .leggibile{
+   margin-top: 10px;
  }
 
  .leggibile:hover{
