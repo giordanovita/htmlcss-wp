@@ -4,8 +4,6 @@
   padding:0;
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
-
-
 }
 
 .centratore{
@@ -33,7 +31,6 @@ a:hover{
 .intestazione{
   width: 100%;
   height: 100px;
-
 }
 
 .intestazione .logo{
@@ -47,9 +44,6 @@ a:hover{
   display: inline-block;
   list-style-type: none;
   margin-right: 5px;
-
-
-
 }
 
 
@@ -59,41 +53,53 @@ a:hover{
 .firstbox{
   width: 100%;
   height: 450px;
-  background-image: url(img/banner.jpg);
+  background:linear-gradient(
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.3)  ),
+        url(img/banner.jpg);
   background-size: cover;
   background-position: center;
-  border-radius: 10px;
-  margin-top: 40px;
-  filter: brightness(85%);
-  
   position: relative;
-
+  border-radius: 8px;
+  margin-top: 40px;
 }
+
+
 
 .didascalia{
   width: 45%;
   position: absolute;
-  left: 45px;
+  left: 20px;
   bottom: 55px;
   color: white;
-
-
-
+  font-size: 15px;
 }
 
 .bold{
-  font-size: 30px;
-
+  font-size: 25px;
+  width: 100%;
 }
 
 
 /* sezione inferiore */
 .secondbox{
   width: 100%;
-  /* debug */
-  background-color: blue;
+  margin-top: 35px;
+
 }
 
+
+.secondtitle{
+  width: 100%;
+  height: 40px;
+  margin-bottom: 30px;
+
+}
+
+.sottotit{
+  font-size: 15px;
+  color:#9B9B9B;
+}
 
 .row{
  width: 100%;
@@ -101,16 +107,9 @@ a:hover{
 
 
 }
- .secondtitle{
-   width: 100%;
-   height: 40px;
-   margin-bottom: 12px;
-   /* debug */
-   background-color: lightblue;
- }
 
  .column{
-   height: 200px;
+   height: 600px;
    float: left;
    margin-bottom: 10px;
 
@@ -123,15 +122,55 @@ a:hover{
 }
  .small{
    width: calc(25% - 5px);
-   /* debug */
-   background-color: red;
+
+ }
+
+ .pic{
+   width: 100%;
+   height: 260px;
+   border-radius: 8px;
+   margin-bottom: 15px;
+ }
+
+ .one{
+   background:linear-gradient(
+         rgba(0, 0, 0, 0.2),
+         rgba(0, 0, 0, 0.3)  ),
+         url(img/img-1.jpg);
+   background-size: cover;
+   background-position:center;
+ }
+
+ .two{
+   background:linear-gradient(
+         rgba(0, 0, 0, 0.2),
+         rgba(0, 0, 0, 0.3)  ),
+         url(img/banner-2.jpg);
+   background-size: cover;
+   background-position:center;
+ }
+
+ .three{
+   background:linear-gradient(
+         rgba(0, 0, 0, 0.2),
+         rgba(0, 0, 0, 0.3)  ),
+         url(img/img-3.jpg);
+   background-size: cover;
+   background-position:center;
+
+ }
+
+ .columntitle{
+   font-size: 15px;
+   font-weight: bold;
+   display: block;
+   margin-bottom: 10px;
+
  }
 
  .big{
    width: calc(50% - 10px);
    margin:0 10px;
-   /* debug */
-   background-color: lightblue;
  }
 /* regole footer */
 
