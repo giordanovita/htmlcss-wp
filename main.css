@@ -26,6 +26,10 @@ a:hover{
   text-decoration: underline;
 }
 
+footer{
+  margin-top: 100px;
+}
+
 
 /* regole header */
 .intestazione{
